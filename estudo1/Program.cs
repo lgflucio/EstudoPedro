@@ -10,7 +10,7 @@ namespace estudo1
     {
         static void Main(string[] args)
         {
-
+            //iniciar o projeto de biblioteca.
         }
     }
 }

@@ -13,7 +13,7 @@ namespace VerificarNumeroPar
             int a;
             bool Primo = false;
             int aux = 0;
-            for (int i = 1; i <= 1000; i = i + 1)
+            for (int i = 1; i <= 20; i = i + 1)
             {
                 aux = 0;
                 for (int j = 1; j <= i; j++)

@@ -10,32 +10,32 @@ namespace teste
     {
         static void Main(string[] args)
         {
-            for (int i = 2; i < 1000; i++)
-            {
-            calculaNumeroPrimo(i);
-            }
-            Console.ReadKey();
-        }
-        public static string calculaNumeroPrimo(int n)
-        {
-            string resultado = n.ToString();
-         
-                for (int i = 2; i < n; i++)
-                {
-                    int resto = n % i;
-                    if (resto == 0)
-                    {
-                        resultado = n + " não primo";
-                        i = n + 1;
-                    }
-                    else
-                        resultado = n + " primo";
-                }
-            
-           
-            Console.WriteLine(resultado);
+            int Combustivel = 12;
+            int Tempo;
+            int Velocidade;
+            double Distancia;
+            double Gasto;
 
-            return resultado;
+            Console.WriteLine("Quantas horas de viagem?:");
+            Tempo = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Insira a velocidade média:");
+            Velocidade = Convert.ToInt32(Console.ReadLine());
+
+            Distancia = Velocidade / Tempo;
+
+            Gasto = Distancia / Combustivel;
+
+            Console.WriteLine($"A distancia percorrida é de: {Distancia} Kilometros");
+            Console.WriteLine($"O seu gasto de combustivel será de: {Gasto}");
+            Console.ReadKey();
+
+
+
+
+
+
+
         }
     }
 }

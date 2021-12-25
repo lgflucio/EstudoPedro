@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciciosPedro", "ExerciciosPedro\ExerciciosPedro.csproj", "{0504BA05-8AA2-4CC4-ACE5-6FAF8DDF7D7D}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerificarNumeroPar", "VerificarNumeroPar\VerificarNumeroPar.csproj", "{A60FE1AC-4DD7-40A0-BDA3-5347426A13BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teste", "teste\teste.csproj", "{1F83EDF0-E1EB-4DBC-8ED9-3FCF6EAB92A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleCombustivel", "teste\ControleCombustivel.csproj", "{1F83EDF0-E1EB-4DBC-8ED9-3FCF6EAB92A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estudo1", "estudo1\estudo1.csproj", "{FC003BC5-B320-48B4-BB88-F8A79B073B7B}"
 EndProject

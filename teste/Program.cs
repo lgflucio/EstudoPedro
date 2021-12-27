@@ -15,6 +15,7 @@ namespace teste
             int Velocidade;
             double Distancia;
             double Gasto;
+            int Tempo2;
 
             Console.WriteLine("Quantas horas de viagem?:");
             Tempo = Convert.ToInt32(Console.ReadLine());
@@ -22,7 +23,8 @@ namespace teste
             Console.WriteLine("Insira a velocidade média:");
             Velocidade = Convert.ToInt32(Console.ReadLine());
 
-            Distancia = Velocidade / Tempo;
+            Tempo2 = Tempo / 60
+            Distancia = Velocidade * Tempo;
 
             Gasto = Distancia / Combustivel;
 
